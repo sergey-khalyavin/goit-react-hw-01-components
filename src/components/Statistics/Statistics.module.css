@@ -1,0 +1,34 @@
+.statistics {
+  width: 300px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  display: block;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #f3e43f;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.statList {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  width: 75px;
+  text-align: center;
+}
+
+.label {
+  display: block;
+}

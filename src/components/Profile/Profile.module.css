@@ -1,0 +1,49 @@
+.profile {
+  font-family: 'Open Sans', sans-serif;
+  width: 300px;
+  border: 1px solid #000000;
+  margin-bottom: 20px;
+}
+
+.description {
+  text-align: center;
+}
+
+.list {
+  padding: 0px;
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  width: 100px;
+  text-align: center;
+  border: 1px solid #f6d077;
+}
+
+.avatar {
+  padding-top: 20px;
+  border-radius: 100px;
+}
+.defaultPic {
+  padding-top: 20px;
+  border-radius: 100px;
+  width: 300px;
+}
+.name {
+  font-size: 20px;
+}
+
+.tag {
+  font-weight: 700;
+  opacity: 0.5;
+  font-size: 16px;
+}
+
+.location {
+  composes: tag;
+}
+
+.label {
+  display: block;
+}

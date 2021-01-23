@@ -1,0 +1,21 @@
+.transaction {
+  border-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.title {
+  padding: 10px 20px;
+  background: #9efffa;
+  border: 1px solid #9600d1;
+  font-size: 18px;
+}
+
+.value {
+  vertical-align: middle;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #5860f8;
+}
+ 
