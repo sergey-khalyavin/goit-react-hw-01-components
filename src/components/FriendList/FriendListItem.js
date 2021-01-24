@@ -6,7 +6,7 @@ function FriendListItem({ avatar, name, isOnline, id }) {
   const quantityClass = isOnline ? styles.online : styles.offline;
   return (
     <li key={id} className={styles.list}>
-      <span className={quantityClass}></span>
+      <span className={quantityClass} />
       <img
         className={styles.avatar}
         src={styles.avatar}
